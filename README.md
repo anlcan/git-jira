@@ -1,8 +1,7 @@
 install [jira-cmd](https://github.com/germanrcuriel/jira-cmd)
 
-	```
 	npm install -g jira-cmd
-	```
+	
 
 configure jira-cmd by running `jira
 
@@ -20,3 +19,8 @@ to commit all changes, push the branch, mark issue 'done' and open the pull requ
    	  close.sh
 
 from the issues' branch
+
+to copy commands to your `/usr/local/bin` and make them executable
+
+   cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/branch.sh && sudo chmod a+x branch.sh
+   cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/close.sh && sudo chmod a+x branch.sh
