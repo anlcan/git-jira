@@ -22,5 +22,6 @@ from the issues' branch
 
 to copy commands to your `/usr/local/bin` and make them executable
 
-   cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/branch.sh && sudo chmod a+x branch.sh
-   cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/close.sh && sudo chmod a+x branch.sh
+   	cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/branch.sh -o git-jira-branch&& sudo chmod a+x git-jira-branch
+   
+	cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/close.sh -o git-jira-close && sudo chmod a+x git-jira-close
