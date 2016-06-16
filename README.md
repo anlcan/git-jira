@@ -24,4 +24,4 @@ to copy commands to your `/usr/local/bin` and make them executable
 
    	cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/branch.sh -o git-jira-branch&& sudo chmod a+x gijira-open
    
-	cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/close.sh -o git-jira-close && sudo chmod a+x gjira-close
+	cd /usr/local/bin/ && sudo curl https://raw.githubusercontent.com/anlcan/git-jira/master/close.sh -o git-jira-close && sudo chmod a+x gijira-close
