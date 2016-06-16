@@ -27,3 +27,5 @@ jira done $ISSUE
 
 # magic : http://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash                        
 if [ -z ${PR_URL} ]; then  echo "no pull request url found"; else open $PR_URL; fi
+
+git checkout master
