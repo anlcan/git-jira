@@ -27,7 +27,7 @@ BRANCH=$ISSUE
 
 # check if issue short description exists
 DESC="$2"
-if [ DESC ]; then
+if [  ${#DESC} -gt 0 ]; then
 	# short desc can not be longer than 50 chars
 	if [ ${#DESC} -gt 49 ]; then
 		echo "short description is too long $DESC"
